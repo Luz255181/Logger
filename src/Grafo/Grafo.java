@@ -25,7 +25,7 @@ public class Grafo
 			logger = Logger.getLogger(Grafo.class.getName());
 
 			Handler hnd = new ConsoleHandler();
-			hnd.setLevel(Level.FINE);
+			hnd.setLevel(Level.WARNING);
 			logger.addHandler(hnd);
 
 			logger.setLevel(Level.FINE);
